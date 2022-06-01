@@ -1,0 +1,40 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://matrix.bigdumb.gq",
+            "server_name": "bigdumb.gq"
+        },
+        "m.identity_server": {
+            "base_url": "https://vector.im"
+        }
+    },
+    "disable_custom_urls": false,
+    "disable_guests": false,
+    "disable_login_language_selector": false,
+    "disable_3pid_login": false,
+    "brand": "bigdumb.gq chat",
+    "bug_report_endpoint_url": "https://element.io/bugreports/submit",
+    "defaultCountryCode": "US",
+    "showLabsSettings": true,
+    "default_federate": true,
+    "default_theme": "dark",
+    "roomDirectory": {
+        "servers": [
+            "matrix.org",
+            "catvibers.me",
+            "bigdumb.gq"
+        ]
+    },
+    "piwik": {
+        "url": "https://piwik.riot.im/",
+        "whitelistedHSUrls": ["https://matrix.org"],
+        "whitelistedISUrls": ["https://vector.im", "https://matrix.org"],
+        "siteId": 1
+    },
+    "settingDefaults": {
+        "breadcrumbs": true
+    },
+    "jitsi": {
+        "preferredDomain": "jitsi.riot.im"
+    }
+}
